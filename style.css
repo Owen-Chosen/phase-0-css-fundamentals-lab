@@ -3,3 +3,50 @@ body {
   height: 100%;
   margin: 0;
 }
+
+nav a {
+  padding-left: 10px;
+  margin-right: 10px;
+  background-color:grey;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, 
+nav, figcaption, section#featured-property {
+  text-align: center;
+}
+
+footer#details {
+  position: relative;
+  background: red;
+  height: 130px;
+}
+
+#details_1 {
+  position: absolute;  
+  text-align: center;
+  margin-left: 20px;
+  }
+
+#details_2 {
+position: absolute;
+margin-left: 500px;
+text-align: center;
+}
+
+#details_3 {
+  position: absolute;
+  left: 1000px;
+  text-align: center;
+  }
+
+  #details_4 {
+    position: absolute;
+    left: 1200px;
+    right: 0;
+    text-align: center;
+    }
